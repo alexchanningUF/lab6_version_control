@@ -8,13 +8,6 @@ def encoder(input1):  # Alex Channing
 
 
 def decoder(input1):
-    output = ""
-    for digit in input1:
-        x = str(int(digit) - 3)
-        output += x
-
-    return output
-
 
 output_1 = ""
 output_2 = ""
