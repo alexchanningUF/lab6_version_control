@@ -8,6 +8,7 @@ def encoder(input1):  # Alex Channing
 
 
 def decoder(input1):
+print("hello")
 
 output_1 = ""
 output_2 = ""
