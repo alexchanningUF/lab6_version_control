@@ -24,7 +24,7 @@ while True:
         output_1 = encoder(encode)
         print("Your password has been encoded and stored!")
     if option == 2:
-        decode = decoder(output_1)
+        decoder(output_1)
         print(f"The encoded password is {output_1}, and the original password is {output_2}.")
     if option == 3:
         break
